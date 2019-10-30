@@ -1,2 +1,7 @@
-# scraper
-scraper
+# Automotive News Scraper
+
+# Breakdown
+
+# Languages
+
+# Usage
