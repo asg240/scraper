@@ -1,10 +1,13 @@
 # Automotive News Scraper
-An app used to scrape trending automotive news articles, archive, and comment on the archived articles.
 
-## Breakdown
+An automobile news scraper app that grabs links from trending articles of Reddit/cars.
+Allows user to create and delete a note about the article in a separate database.
 
+## Packages
 
-## Languages
+* express
+* express-handlebars
+* mongoose
+* cheerio
+* axios
 
-
-## Usage

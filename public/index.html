@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Automobile News Scraper</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo center">Automobile News Scraper</a>
+          <ul id="nav-mobile" class="right">
+            <li><a class="tooltipped" data-position="bottom" data-tooltip="Grab New Articles" id="scrape"><i class="material-icons">restore_page</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+        <div id="articles">
+        </div>
+    </div>
+    <div id="noteModal" class="modal">
+      <div class="modal-content">
+        <h4>Notes</h4>
+        <ul class="collection" id="notes"></ul>
+        <hr>
+        <textarea id="noteEntry" class="materialize-textarea"></textarea>
+        <label for="textarea1">Write a note...</label>
+      </div>
+      <div class="modal-footer" id="saveNoteFooter">
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
